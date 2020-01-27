@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Alligator Wrench.ma
-//Last modified: Fri, Jan 17, 2020 07:20:32 PM
+//Last modified: Wed, Jan 22, 2020 10:04:26 AM
 //Codeset: UTF-8
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "00C1BB7F-CC4F-4F0D-86CB-5E9398A4C60E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.9101355015388017 8.8770760060811789 14.09397702991691 ;
-	setAttr ".r" -type "double3" -62.738352729616153 15.39999999999999 8.2475102243387201e-16 ;
+	setAttr ".t" -type "double3" 1.7549686443153576 9.2354279580694669 14.702557359706859 ;
+	setAttr ".r" -type "double3" -61.538352729615937 12.999999999999979 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "026D351D-AC4F-B1B8-5801-148077D66B0F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 15.01932465643084;
+	setAttr ".coi" 15.594158169648221;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
